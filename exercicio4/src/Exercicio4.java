@@ -11,7 +11,8 @@ public class Exercicio4 {
         for( int i = 1; i<=5; i++) {
 
             System.out.print("DIGITE nNUMEROS DIFERENTES ");
-            num = ler.nextInt();
+            Scanner scanner = null;
+            num = scanner.nextInt();
 
             if (num > 50 )
             {
