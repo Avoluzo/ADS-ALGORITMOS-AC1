@@ -20,7 +20,7 @@ public class Exercicio9 {
         double faltaTotal;
 
         Scanner sc = new Scanner(System.in);
-        for( int i = 1; i<=1; i++) {
+        for (int i = 1; i <= 1; i++) {
 
             System.out.print("NOTA DO 1º BIMESTRE: ");
             bim1 = sc.nextInt();
@@ -46,19 +46,19 @@ public class Exercicio9 {
             System.out.print("FALTAS DO 4º BIMESTRE: ");
             falta4 = sc.nextInt();
 
-            media = (bim1 + bim2 + bim3+ bim4) / 4;
+            media = (bim1 + bim2 + bim3 + bim4) / 4;
             System.out.println("MÉDIA: " + media);
 
             faltaTotal = falta1 + falta2 + falta3 + falta4;
             System.out.println("TTATAL DE FALTAS " + faltaTotal);
 
-            if (media > 7.0 && media <= 10 && faltaTotal <=36){
+            if (media > 7.0 && media <= 10 && faltaTotal <= 36) {
                 System.out.println("APROVADO ");
 
-            }else if (media > 4.0 && media <= 6.9 && faltaTotal <=36){
+            } else if (media > 4.0 && media <= 6.9 && faltaTotal <= 36) {
                 System.out.println("REALIZAR EXAME FINAL ");
 
-            }else if(media < 4.0 && faltaTotal > 36){
+            } else if (media < 4.0 && faltaTotal > 36) {
                 System.out.println("REPROVADO ");
 
             }
