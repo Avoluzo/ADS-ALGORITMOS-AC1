@@ -15,7 +15,7 @@ public class Exercicio5 {
         int num;
 
         for (int i=0; i<6; i++ ) {
-            System.out.println("COLOQUE O NUMERO DE MOEDAS DE  " + valores.get(i)) ;
+            System.out.println("COLOQUE O NUMERO DE MOEDAS DE  ".replace("O","A") + valores.get(i)) ;
             num = leitor.nextInt();
             total = (valores.get(i) * num) + total;
         }
@@ -27,6 +27,8 @@ public class Exercicio5 {
             System.out.println("É POSSÍVEL REALIZAR A COMPRA");
         }
         System.out.println("VOCE POSSUI UM TOTAL DE: " + total);
+
+
     }
 }
 
