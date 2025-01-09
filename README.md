@@ -1,1 +1,3 @@
-# ADS-ALGORITMOS-AC1
+# ALGORITMOS - FACENS
+
+lista de exercícios de lógica de programação
